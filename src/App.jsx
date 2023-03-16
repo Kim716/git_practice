@@ -1,7 +1,11 @@
+import Button from "./components/Button";
+
 function App() {
-  return (
-    <h1>123</h1>
-  )
+  const handleLoginClick = () => {
+    console.log("login ！！！！");
+  };
+
+  return <Button buttonName={"click"} onClick={handleLoginClick} />;
 }
 
-export default App
+export default App;
